@@ -28,7 +28,7 @@ SELECT * FROM customers;
 
 Запит використовується для перегляду всіх даних таблиці клієнтів.
 
-Скріншот: screenshots/01_customers_all.png
+![Скріншот](screenshots/01_customers_all.png)
 
 **Виведення назв товарів та їхніх цін**
 ```sql
@@ -38,7 +38,7 @@ FROM products;
 
 Запит показує лише необхідні колонки з таблиці товарів.
 
-Скріншот: screenshots/02_products_name_price.png
+![Скріншот](screenshots/02_products_name_price.png)
 
 **Контактні дані співробітників**
 ```sql
@@ -48,7 +48,7 @@ FROM employees;
 
 Запит використовується для отримання контактної інформації працівників.
 
-Скріншот: screenshots/03_employees_contacts.png
+![Скріншот](screenshots/03_employees_contacts.png)
 
 ## 2 Фільтрація даних (WHERE)
 
@@ -60,7 +60,7 @@ WHERE city = 'Київ';
 
 Запит відбирає клієнтів, які проживають у місті Київ.
 
-Скріншот: screenshots/04_customers_kyiv.png
+![Скріншот](screenshots/04_customers_kyiv.png)
 
 **Товари дорожчі за 25000 грн**
 ```sql
@@ -71,7 +71,7 @@ WHERE unit_price > 25000;
 
 Запит дозволяє знайти дорогі товари.
 
-Скріншот: screenshots/05_products_over_25000.png
+![Скріншот](screenshots/05_products_over_25000.png)
 
 **Замовлення зі статусом delivered**
 ```sql
@@ -82,7 +82,7 @@ WHERE order_status = 'delivered';
 
 Запит використовується для пошуку доставлених замовлень.
 
-Скріншот: screenshots/06_orders_delivered.png
+![Скріншот](screenshots/06_orders_delivered.png)
 
 **Співробітники відділу продажів**
 ```sql
@@ -93,7 +93,7 @@ WHERE title ILIKE '%продаж%';
 
 Запит знаходить співробітників, посада яких пов’язана з продажами.
 
-Скріншот: screenshots/07_employees_sales.png
+![Скріншот](screenshots/07_employees_sales.png)
 
 ## 3 Сортування результатів (ORDER BY)
 
@@ -106,7 +106,7 @@ ORDER BY unit_price ASC;
 
 Запит впорядковує товари за зростанням ціни.
 
-Скріншот: screenshots/08_products_order_by_price.png
+![Скріншот](screenshots/08_products_order_by_price.png)
 
 **Клієнти в алфавітному порядку**
 ```sql
@@ -117,7 +117,7 @@ ORDER BY contact_name ASC;
 
 Запит сортує клієнтів за іменем контактної особи.
 
-Скріншот: screenshots/09_customers_order_by_name.png
+![Скріншот](screenshots/09_customers_order_by_name.png)
 
 **Замовлення від найновіших до найстаріших**
 ```sql
@@ -128,7 +128,7 @@ ORDER BY order_date DESC;
 
 Запит дозволяє переглянути останні замовлення.
 
-Скріншот: screenshots/10_orders_newest.png
+![Скріншот](screenshots/10_orders_newest.png)
 
 ## 4 Обмеження кількості результатів (LIMIT)
 
@@ -142,7 +142,7 @@ LIMIT 10;
 
 Запит виводить 10 найдорожчих товарів.
 
-Скріншот: screenshots/11_top10_expensive_products.png
+![Скріншот](screenshots/11_top10_expensive_products.png)
 
 **Останні 5 замовлень**
 ```sql
@@ -154,7 +154,7 @@ LIMIT 5;
 
 Запит використовується для перегляду останніх замовлень.
 
-Скріншот: screenshots/12_last_5_orders.png
+![Скріншот](screenshots/12_last_5_orders.png)
 
 **Перші 8 клієнтів за алфавітом**
 ```sql
@@ -166,7 +166,7 @@ LIMIT 8;
 
 Запит демонструє використання LIMIT для обмеження результатів.
 
-Скріншот: screenshots/13_first_8_customers.png
+![Скріншот](screenshots/13_first_8_customers.png)
 
 # Висновок
 
