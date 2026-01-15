@@ -131,6 +131,8 @@ WHERE book_id = 1;
 
 ![скріншот](screenshots/p3.png)
 
+available_copies змінилось з 8 на 7
+
 ## 4. Транзакція “видача книги” (BEGIN…COMMIT)
 
 ```sql
@@ -201,4 +203,5 @@ RETURNING reader_id, first_name, last_name;
 ## Висновок
 
 Під час роботи створено структуру БД бібліотеки з обмеженнями цілісності, виконано безпечні операції INSERT/UPDATE/DELETE та продемонстровано транзакції з COMMIT і ROLLBACK.
+
 
