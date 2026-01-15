@@ -1,4 +1,4 @@
-<img width="1176" height="369" alt="image" src="https://github.com/user-attachments/assets/71081bdc-e680-4a69-ac97-42823ca4f990" /># Лабораторна робота №3
+# Лабораторна робота №3
 ## Модифікація даних та транзакції (PostgreSQL)
 
 ### Мета роботи
@@ -73,7 +73,7 @@ CREATE TABLE lendings (
 );
 ```
 
-![скріншот]()
+![скріншот](screenshots/p1.png)
 
 ## 2. Ввставка тестових даних (INSERT)
 
@@ -106,7 +106,7 @@ VALUES
 
 ```
 
-![скріншот]()
+![скріншот](screenshots/p2.png)
 
 ## 3. Безпечне оновлення (SELECT → UPDATE → SELECT)
 
@@ -129,7 +129,7 @@ WHERE book_id = 1;
 
 ```
 
-![скріншот]()
+![скріншот](screenshots/p3.png)
 
 ## 4. Транзакція “видача книги” (BEGIN…COMMIT)
 
@@ -151,7 +151,7 @@ COMMIT;
 
 ```
 
-![скріншот]()
+![скріншот](screenshots/p4.png)
 
 ## 5. ROLLBACK на помилці (FK)
 
@@ -163,7 +163,7 @@ DELETE FROM authors WHERE author_id = 1;
 ROLLBACK;
 ```
 
-![скріншот]()
+![скріншот](screenshots/p5.png)
 
 ## 6. Безпечне видалення (DELETE з умовою)
 
@@ -196,8 +196,9 @@ RETURNING reader_id, first_name, last_name;
 
 ```
 
-![скріншот]()
+![скріншот](screenshots/p6.png)
 
 ## Висновок
 
 Під час роботи створено структуру БД бібліотеки з обмеженнями цілісності, виконано безпечні операції INSERT/UPDATE/DELETE та продемонстровано транзакції з COMMIT і ROLLBACK.
+
